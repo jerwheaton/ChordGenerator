@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F14538F1DA6B22D0043E9E0 /* State.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F14538E1DA6B22D0043E9E0 /* State.m */; };
+		3F7774EB1E54E71400C3D140 /* OpenALSupport.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F7774E71E54E71400C3D140 /* OpenALSupport.c */; };
+		3F7774EC1E54E71400C3D140 /* SoundBankPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7774EA1E54E71400C3D140 /* SoundBankPlayer.m */; };
+		3F7775031E54E74C00C3D140 /* P200 Piano A#2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F7774EE1E54E74C00C3D140 /* P200 Piano A#2.caf */; };
+		3F7775041E54E74C00C3D140 /* P200 Piano A#3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F7774EF1E54E74C00C3D140 /* P200 Piano A#3.caf */; };
+		3F7775051E54E74C00C3D140 /* P200 Piano A#4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F7774F01E54E74C00C3D140 /* P200 Piano A#4.caf */; };
+		3F7775061E54E74C00C3D140 /* P200 Piano A#5.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F7774F11E54E74C00C3D140 /* P200 Piano A#5.caf */; };
+		3F7775071E54E74C00C3D140 /* P200 Piano A#7.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F7774F21E54E74C00C3D140 /* P200 Piano A#7.caf */; };
+		3F7775081E54E74C00C3D140 /* P200 Piano C10.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F7774F31E54E74C00C3D140 /* P200 Piano C10.caf */; };
+		3F7775091E54E74C00C3D140 /* P200 Piano C7.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F7774F41E54E74C00C3D140 /* P200 Piano C7.caf */; };
+		3F77750A1E54E74C00C3D140 /* P200 Piano D#8.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F7774F51E54E74C00C3D140 /* P200 Piano D#8.caf */; };
+		3F77750B1E54E74C00C3D140 /* P200 Piano D2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F7774F61E54E74C00C3D140 /* P200 Piano D2.caf */; };
+		3F77750C1E54E74C00C3D140 /* P200 Piano D3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F7774F71E54E74C00C3D140 /* P200 Piano D3.caf */; };
+		3F77750D1E54E74C00C3D140 /* P200 Piano D4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F7774F81E54E74C00C3D140 /* P200 Piano D4.caf */; };
+		3F77750E1E54E74C00C3D140 /* P200 Piano D5.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F7774F91E54E74C00C3D140 /* P200 Piano D5.caf */; };
+		3F77750F1E54E74C00C3D140 /* P200 Piano D6.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F7774FA1E54E74C00C3D140 /* P200 Piano D6.caf */; };
+		3F7775101E54E74C00C3D140 /* P200 Piano F#2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F7774FB1E54E74C00C3D140 /* P200 Piano F#2.caf */; };
+		3F7775111E54E74C00C3D140 /* P200 Piano F#3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F7774FC1E54E74C00C3D140 /* P200 Piano F#3.caf */; };
+		3F7775121E54E74C00C3D140 /* P200 Piano F#4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F7774FD1E54E74C00C3D140 /* P200 Piano F#4.caf */; };
+		3F7775131E54E74C00C3D140 /* P200 Piano F#5.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F7774FE1E54E74C00C3D140 /* P200 Piano F#5.caf */; };
+		3F7775141E54E74C00C3D140 /* P200 Piano F#6.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F7774FF1E54E74C00C3D140 /* P200 Piano F#6.caf */; };
+		3F7775151E54E74C00C3D140 /* P200 Piano F#7.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F7775001E54E74C00C3D140 /* P200 Piano F#7.caf */; };
+		3F7775161E54E74C00C3D140 /* P200 Piano G#9.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F7775011E54E74C00C3D140 /* P200 Piano G#9.caf */; };
+		3F7775171E54E74C00C3D140 /* Piano.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F7775021E54E74C00C3D140 /* Piano.plist */; };
+		3FED63681DA2EA45005229D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FED63671DA2EA45005229D1 /* main.m */; };
+		3FED636B1DA2EA45005229D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FED636A1DA2EA45005229D1 /* AppDelegate.m */; };
+		3FED636E1DA2EA45005229D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FED636D1DA2EA45005229D1 /* ViewController.m */; };
+		3FED63711DA2EA45005229D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FED636F1DA2EA45005229D1 /* Main.storyboard */; };
+		3FED63731DA2EA45005229D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FED63721DA2EA45005229D1 /* Assets.xcassets */; };
+		3FED63761DA2EA45005229D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FED63741DA2EA45005229D1 /* LaunchScreen.storyboard */; };
+		3FED63811DA2EA45005229D1 /* MusicGeneratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FED63801DA2EA45005229D1 /* MusicGeneratorTests.m */; };
+		3FED638C1DA2EA45005229D1 /* MusicGeneratorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FED638B1DA2EA45005229D1 /* MusicGeneratorUITests.m */; };
+		3FED63D11DA2F4DD005229D1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FED63D01DA2F4DD005229D1 /* AVFoundation.framework */; };
+		3FED63D61DA2F88C005229D1 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FED63D51DA2F88C005229D1 /* Player.m */; };
+		3FED63DA1DA2FFEA005229D1 /* SongSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FED63D91DA2FFEA005229D1 /* SongSettings.m */; };
+		3FED63DC1DA30F4E005229D1 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FED63DB1DA30F4E005229D1 /* GameKit.framework */; };
+		3FED63DF1DA46689005229D1 /* Chord.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FED63DE1DA46688005229D1 /* Chord.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FED637D1DA2EA45005229D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FED635B1DA2EA45005229D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FED63621DA2EA45005229D1;
+			remoteInfo = MusicGenerator;
+		};
+		3FED63881DA2EA45005229D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FED635B1DA2EA45005229D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FED63621DA2EA45005229D1;
+			remoteInfo = MusicGenerator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F14538D1DA6B22D0043E9E0 /* State.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = State.h; sourceTree = "<group>"; };
+		3F14538E1DA6B22D0043E9E0 /* State.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = State.m; sourceTree = "<group>"; };
+		3F7774E71E54E71400C3D140 /* OpenALSupport.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = OpenALSupport.c; sourceTree = "<group>"; };
+		3F7774E81E54E71400C3D140 /* OpenALSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenALSupport.h; sourceTree = "<group>"; };
+		3F7774E91E54E71400C3D140 /* SoundBankPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundBankPlayer.h; sourceTree = "<group>"; };
+		3F7774EA1E54E71400C3D140 /* SoundBankPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundBankPlayer.m; sourceTree = "<group>"; };
+		3F7774EE1E54E74C00C3D140 /* P200 Piano A#2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "P200 Piano A#2.caf"; sourceTree = "<group>"; };
+		3F7774EF1E54E74C00C3D140 /* P200 Piano A#3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "P200 Piano A#3.caf"; sourceTree = "<group>"; };
+		3F7774F01E54E74C00C3D140 /* P200 Piano A#4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "P200 Piano A#4.caf"; sourceTree = "<group>"; };
+		3F7774F11E54E74C00C3D140 /* P200 Piano A#5.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "P200 Piano A#5.caf"; sourceTree = "<group>"; };
+		3F7774F21E54E74C00C3D140 /* P200 Piano A#7.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "P200 Piano A#7.caf"; sourceTree = "<group>"; };
+		3F7774F31E54E74C00C3D140 /* P200 Piano C10.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "P200 Piano C10.caf"; sourceTree = "<group>"; };
+		3F7774F41E54E74C00C3D140 /* P200 Piano C7.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "P200 Piano C7.caf"; sourceTree = "<group>"; };
+		3F7774F51E54E74C00C3D140 /* P200 Piano D#8.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "P200 Piano D#8.caf"; sourceTree = "<group>"; };
+		3F7774F61E54E74C00C3D140 /* P200 Piano D2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "P200 Piano D2.caf"; sourceTree = "<group>"; };
+		3F7774F71E54E74C00C3D140 /* P200 Piano D3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "P200 Piano D3.caf"; sourceTree = "<group>"; };
+		3F7774F81E54E74C00C3D140 /* P200 Piano D4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "P200 Piano D4.caf"; sourceTree = "<group>"; };
+		3F7774F91E54E74C00C3D140 /* P200 Piano D5.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "P200 Piano D5.caf"; sourceTree = "<group>"; };
+		3F7774FA1E54E74C00C3D140 /* P200 Piano D6.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "P200 Piano D6.caf"; sourceTree = "<group>"; };
+		3F7774FB1E54E74C00C3D140 /* P200 Piano F#2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "P200 Piano F#2.caf"; sourceTree = "<group>"; };
+		3F7774FC1E54E74C00C3D140 /* P200 Piano F#3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "P200 Piano F#3.caf"; sourceTree = "<group>"; };
+		3F7774FD1E54E74C00C3D140 /* P200 Piano F#4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "P200 Piano F#4.caf"; sourceTree = "<group>"; };
+		3F7774FE1E54E74C00C3D140 /* P200 Piano F#5.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "P200 Piano F#5.caf"; sourceTree = "<group>"; };
+		3F7774FF1E54E74C00C3D140 /* P200 Piano F#6.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "P200 Piano F#6.caf"; sourceTree = "<group>"; };
+		3F7775001E54E74C00C3D140 /* P200 Piano F#7.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "P200 Piano F#7.caf"; sourceTree = "<group>"; };
+		3F7775011E54E74C00C3D140 /* P200 Piano G#9.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "P200 Piano G#9.caf"; sourceTree = "<group>"; };
+		3F7775021E54E74C00C3D140 /* Piano.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Piano.plist; sourceTree = "<group>"; };
+		3FED63631DA2EA45005229D1 /* MusicGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FED63671DA2EA45005229D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3FED63691DA2EA45005229D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3FED636A1DA2EA45005229D1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3FED636C1DA2EA45005229D1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3FED636D1DA2EA45005229D1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3FED63701DA2EA45005229D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FED63721DA2EA45005229D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FED63751DA2EA45005229D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FED63771DA2EA45005229D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FED637C1DA2EA45005229D1 /* MusicGeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicGeneratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FED63801DA2EA45005229D1 /* MusicGeneratorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicGeneratorTests.m; sourceTree = "<group>"; };
+		3FED63821DA2EA45005229D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FED63871DA2EA45005229D1 /* MusicGeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicGeneratorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FED638B1DA2EA45005229D1 /* MusicGeneratorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicGeneratorUITests.m; sourceTree = "<group>"; };
+		3FED638D1DA2EA45005229D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FED63D01DA2F4DD005229D1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3FED63D41DA2F88C005229D1 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		3FED63D51DA2F88C005229D1 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		3FED63D71DA2FC33005229D1 /* common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		3FED63D81DA2FFEA005229D1 /* SongSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongSettings.h; sourceTree = "<group>"; };
+		3FED63D91DA2FFEA005229D1 /* SongSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongSettings.m; sourceTree = "<group>"; };
+		3FED63DB1DA30F4E005229D1 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		3FED63DD1DA46688005229D1 /* Chord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chord.h; sourceTree = "<group>"; };
+		3FED63DE1DA46688005229D1 /* Chord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chord.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FED63601DA2EA45005229D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FED63DC1DA30F4E005229D1 /* GameKit.framework in Frameworks */,
+				3FED63D11DA2F4DD005229D1 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FED63791DA2EA45005229D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FED63841DA2EA45005229D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F7774E61E54E71400C3D140 /* SoundBankPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				3F7774E71E54E71400C3D140 /* OpenALSupport.c */,
+				3F7774E81E54E71400C3D140 /* OpenALSupport.h */,
+				3F7774E91E54E71400C3D140 /* SoundBankPlayer.h */,
+				3F7774EA1E54E71400C3D140 /* SoundBankPlayer.m */,
+			);
+			path = SoundBankPlayer;
+			sourceTree = "<group>";
+		};
+		3F7774ED1E54E74C00C3D140 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				3F7774EE1E54E74C00C3D140 /* P200 Piano A#2.caf */,
+				3F7774EF1E54E74C00C3D140 /* P200 Piano A#3.caf */,
+				3F7774F01E54E74C00C3D140 /* P200 Piano A#4.caf */,
+				3F7774F11E54E74C00C3D140 /* P200 Piano A#5.caf */,
+				3F7774F21E54E74C00C3D140 /* P200 Piano A#7.caf */,
+				3F7774F31E54E74C00C3D140 /* P200 Piano C10.caf */,
+				3F7774F41E54E74C00C3D140 /* P200 Piano C7.caf */,
+				3F7774F51E54E74C00C3D140 /* P200 Piano D#8.caf */,
+				3F7774F61E54E74C00C3D140 /* P200 Piano D2.caf */,
+				3F7774F71E54E74C00C3D140 /* P200 Piano D3.caf */,
+				3F7774F81E54E74C00C3D140 /* P200 Piano D4.caf */,
+				3F7774F91E54E74C00C3D140 /* P200 Piano D5.caf */,
+				3F7774FA1E54E74C00C3D140 /* P200 Piano D6.caf */,
+				3F7774FB1E54E74C00C3D140 /* P200 Piano F#2.caf */,
+				3F7774FC1E54E74C00C3D140 /* P200 Piano F#3.caf */,
+				3F7774FD1E54E74C00C3D140 /* P200 Piano F#4.caf */,
+				3F7774FE1E54E74C00C3D140 /* P200 Piano F#5.caf */,
+				3F7774FF1E54E74C00C3D140 /* P200 Piano F#6.caf */,
+				3F7775001E54E74C00C3D140 /* P200 Piano F#7.caf */,
+				3F7775011E54E74C00C3D140 /* P200 Piano G#9.caf */,
+				3F7775021E54E74C00C3D140 /* Piano.plist */,
+			);
+			name = Sounds;
+			path = SoundBankPlayer/Sounds;
+			sourceTree = "<group>";
+		};
+		3FED635A1DA2EA45005229D1 = {
+			isa = PBXGroup;
+			children = (
+				3FED63651DA2EA45005229D1 /* MusicGenerator */,
+				3FED637F1DA2EA45005229D1 /* MusicGeneratorTests */,
+				3FED638A1DA2EA45005229D1 /* MusicGeneratorUITests */,
+				3FED63641DA2EA45005229D1 /* Products */,
+				3F7774E61E54E71400C3D140 /* SoundBankPlayer */,
+				3F7774ED1E54E74C00C3D140 /* Sounds */,
+				3FED63CF1DA2F4DD005229D1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3FED63641DA2EA45005229D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FED63631DA2EA45005229D1 /* MusicGenerator.app */,
+				3FED637C1DA2EA45005229D1 /* MusicGeneratorTests.xctest */,
+				3FED63871DA2EA45005229D1 /* MusicGeneratorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FED63651DA2EA45005229D1 /* MusicGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				3FED63691DA2EA45005229D1 /* AppDelegate.h */,
+				3FED636A1DA2EA45005229D1 /* AppDelegate.m */,
+				3FED636C1DA2EA45005229D1 /* ViewController.h */,
+				3FED636D1DA2EA45005229D1 /* ViewController.m */,
+				3FED636F1DA2EA45005229D1 /* Main.storyboard */,
+				3FED63721DA2EA45005229D1 /* Assets.xcassets */,
+				3FED63741DA2EA45005229D1 /* LaunchScreen.storyboard */,
+				3FED63771DA2EA45005229D1 /* Info.plist */,
+				3FED63D71DA2FC33005229D1 /* common.h */,
+				3FED63D41DA2F88C005229D1 /* Player.h */,
+				3FED63D51DA2F88C005229D1 /* Player.m */,
+				3FED63D81DA2FFEA005229D1 /* SongSettings.h */,
+				3FED63D91DA2FFEA005229D1 /* SongSettings.m */,
+				3FED63661DA2EA45005229D1 /* Supporting Files */,
+				3FED63DD1DA46688005229D1 /* Chord.h */,
+				3FED63DE1DA46688005229D1 /* Chord.m */,
+				3F14538D1DA6B22D0043E9E0 /* State.h */,
+				3F14538E1DA6B22D0043E9E0 /* State.m */,
+			);
+			path = MusicGenerator;
+			sourceTree = "<group>";
+		};
+		3FED63661DA2EA45005229D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FED63671DA2EA45005229D1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3FED637F1DA2EA45005229D1 /* MusicGeneratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FED63801DA2EA45005229D1 /* MusicGeneratorTests.m */,
+				3FED63821DA2EA45005229D1 /* Info.plist */,
+			);
+			path = MusicGeneratorTests;
+			sourceTree = "<group>";
+		};
+		3FED638A1DA2EA45005229D1 /* MusicGeneratorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FED638B1DA2EA45005229D1 /* MusicGeneratorUITests.m */,
+				3FED638D1DA2EA45005229D1 /* Info.plist */,
+			);
+			path = MusicGeneratorUITests;
+			sourceTree = "<group>";
+		};
+		3FED63CF1DA2F4DD005229D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FED63DB1DA30F4E005229D1 /* GameKit.framework */,
+				3FED63D01DA2F4DD005229D1 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FED63621DA2EA45005229D1 /* MusicGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FED63901DA2EA45005229D1 /* Build configuration list for PBXNativeTarget "MusicGenerator" */;
+			buildPhases = (
+				3FED635F1DA2EA45005229D1 /* Sources */,
+				3FED63601DA2EA45005229D1 /* Frameworks */,
+				3FED63611DA2EA45005229D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusicGenerator;
+			productName = MusicGenerator;
+			productReference = 3FED63631DA2EA45005229D1 /* MusicGenerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FED637B1DA2EA45005229D1 /* MusicGeneratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FED63931DA2EA45005229D1 /* Build configuration list for PBXNativeTarget "MusicGeneratorTests" */;
+			buildPhases = (
+				3FED63781DA2EA45005229D1 /* Sources */,
+				3FED63791DA2EA45005229D1 /* Frameworks */,
+				3FED637A1DA2EA45005229D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FED637E1DA2EA45005229D1 /* PBXTargetDependency */,
+			);
+			name = MusicGeneratorTests;
+			productName = MusicGeneratorTests;
+			productReference = 3FED637C1DA2EA45005229D1 /* MusicGeneratorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FED63861DA2EA45005229D1 /* MusicGeneratorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FED63961DA2EA45005229D1 /* Build configuration list for PBXNativeTarget "MusicGeneratorUITests" */;
+			buildPhases = (
+				3FED63831DA2EA45005229D1 /* Sources */,
+				3FED63841DA2EA45005229D1 /* Frameworks */,
+				3FED63851DA2EA45005229D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FED63891DA2EA45005229D1 /* PBXTargetDependency */,
+			);
+			name = MusicGeneratorUITests;
+			productName = MusicGeneratorUITests;
+			productReference = 3FED63871DA2EA45005229D1 /* MusicGeneratorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FED635B1DA2EA45005229D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Jeremy Wheaton";
+				TargetAttributes = {
+					3FED63621DA2EA45005229D1 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 6APGTYX27J;
+						ProvisioningStyle = Automatic;
+					};
+					3FED637B1DA2EA45005229D1 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3FED63621DA2EA45005229D1;
+					};
+					3FED63861DA2EA45005229D1 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3FED63621DA2EA45005229D1;
+					};
+				};
+			};
+			buildConfigurationList = 3FED635E1DA2EA45005229D1 /* Build configuration list for PBXProject "MusicGenerator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FED635A1DA2EA45005229D1;
+			productRefGroup = 3FED63641DA2EA45005229D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FED63621DA2EA45005229D1 /* MusicGenerator */,
+				3FED637B1DA2EA45005229D1 /* MusicGeneratorTests */,
+				3FED63861DA2EA45005229D1 /* MusicGeneratorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FED63611DA2EA45005229D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7775121E54E74C00C3D140 /* P200 Piano F#4.caf in Resources */,
+				3F77750A1E54E74C00C3D140 /* P200 Piano D#8.caf in Resources */,
+				3F77750E1E54E74C00C3D140 /* P200 Piano D5.caf in Resources */,
+				3FED63761DA2EA45005229D1 /* LaunchScreen.storyboard in Resources */,
+				3F7775171E54E74C00C3D140 /* Piano.plist in Resources */,
+				3F7775031E54E74C00C3D140 /* P200 Piano A#2.caf in Resources */,
+				3F7775061E54E74C00C3D140 /* P200 Piano A#5.caf in Resources */,
+				3F7775111E54E74C00C3D140 /* P200 Piano F#3.caf in Resources */,
+				3F7775081E54E74C00C3D140 /* P200 Piano C10.caf in Resources */,
+				3F7775151E54E74C00C3D140 /* P200 Piano F#7.caf in Resources */,
+				3F7775051E54E74C00C3D140 /* P200 Piano A#4.caf in Resources */,
+				3F77750D1E54E74C00C3D140 /* P200 Piano D4.caf in Resources */,
+				3F7775041E54E74C00C3D140 /* P200 Piano A#3.caf in Resources */,
+				3F77750F1E54E74C00C3D140 /* P200 Piano D6.caf in Resources */,
+				3F7775091E54E74C00C3D140 /* P200 Piano C7.caf in Resources */,
+				3F7775131E54E74C00C3D140 /* P200 Piano F#5.caf in Resources */,
+				3F7775161E54E74C00C3D140 /* P200 Piano G#9.caf in Resources */,
+				3F77750B1E54E74C00C3D140 /* P200 Piano D2.caf in Resources */,
+				3F7775101E54E74C00C3D140 /* P200 Piano F#2.caf in Resources */,
+				3FED63731DA2EA45005229D1 /* Assets.xcassets in Resources */,
+				3F7775141E54E74C00C3D140 /* P200 Piano F#6.caf in Resources */,
+				3F7775071E54E74C00C3D140 /* P200 Piano A#7.caf in Resources */,
+				3F77750C1E54E74C00C3D140 /* P200 Piano D3.caf in Resources */,
+				3FED63711DA2EA45005229D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FED637A1DA2EA45005229D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FED63851DA2EA45005229D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FED635F1DA2EA45005229D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7774EC1E54E71400C3D140 /* SoundBankPlayer.m in Sources */,
+				3FED636E1DA2EA45005229D1 /* ViewController.m in Sources */,
+				3FED63DF1DA46689005229D1 /* Chord.m in Sources */,
+				3F14538F1DA6B22D0043E9E0 /* State.m in Sources */,
+				3FED636B1DA2EA45005229D1 /* AppDelegate.m in Sources */,
+				3FED63681DA2EA45005229D1 /* main.m in Sources */,
+				3F7774EB1E54E71400C3D140 /* OpenALSupport.c in Sources */,
+				3FED63DA1DA2FFEA005229D1 /* SongSettings.m in Sources */,
+				3FED63D61DA2F88C005229D1 /* Player.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FED63781DA2EA45005229D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FED63811DA2EA45005229D1 /* MusicGeneratorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FED63831DA2EA45005229D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FED638C1DA2EA45005229D1 /* MusicGeneratorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FED637E1DA2EA45005229D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FED63621DA2EA45005229D1 /* MusicGenerator */;
+			targetProxy = 3FED637D1DA2EA45005229D1 /* PBXContainerItemProxy */;
+		};
+		3FED63891DA2EA45005229D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FED63621DA2EA45005229D1 /* MusicGenerator */;
+			targetProxy = 3FED63881DA2EA45005229D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FED636F1DA2EA45005229D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FED63701DA2EA45005229D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FED63741DA2EA45005229D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FED63751DA2EA45005229D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FED638E1DA2EA45005229D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FED638F1DA2EA45005229D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FED63911DA2EA45005229D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 6APGTYX27J;
+				INFOPLIST_FILE = MusicGenerator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeremy.MusicGenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3FED63921DA2EA45005229D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 6APGTYX27J;
+				INFOPLIST_FILE = MusicGenerator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeremy.MusicGenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3FED63941DA2EA45005229D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MusicGeneratorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeremy.MusicGeneratorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicGenerator.app/MusicGenerator";
+			};
+			name = Debug;
+		};
+		3FED63951DA2EA45005229D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MusicGeneratorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeremy.MusicGeneratorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicGenerator.app/MusicGenerator";
+			};
+			name = Release;
+		};
+		3FED63971DA2EA45005229D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MusicGeneratorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeremy.MusicGeneratorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MusicGenerator;
+			};
+			name = Debug;
+		};
+		3FED63981DA2EA45005229D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MusicGeneratorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeremy.MusicGeneratorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MusicGenerator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FED635E1DA2EA45005229D1 /* Build configuration list for PBXProject "MusicGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FED638E1DA2EA45005229D1 /* Debug */,
+				3FED638F1DA2EA45005229D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FED63901DA2EA45005229D1 /* Build configuration list for PBXNativeTarget "MusicGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FED63911DA2EA45005229D1 /* Debug */,
+				3FED63921DA2EA45005229D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FED63931DA2EA45005229D1 /* Build configuration list for PBXNativeTarget "MusicGeneratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FED63941DA2EA45005229D1 /* Debug */,
+				3FED63951DA2EA45005229D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FED63961DA2EA45005229D1 /* Build configuration list for PBXNativeTarget "MusicGeneratorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FED63971DA2EA45005229D1 /* Debug */,
+				3FED63981DA2EA45005229D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FED635B1DA2EA45005229D1 /* Project object */;
+}
