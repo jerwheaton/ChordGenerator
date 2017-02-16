@@ -1,6 +1,7 @@
 ## iOS Chord Generator
 An iOS application that is able to generate increasingly procedurally generated
 music. The slider values use the following rules:
+
 0. Fully random, key and time signatures mean nothing. Between 1 and 4 notes are
 selected at and played for random durations.
 1. Notes are selected from the randomly selected key signature. Octave will
@@ -15,6 +16,7 @@ and mutations in octave are even less frequent. Chord progressions can be either
 4. Chords/Notes are played with some rhythm. Rhythm will match the number of
 chords in the current progression, which is now only 4. Ocatave changes are less
 frequent still.
+
 
 This was composed as a solo entry in a Hackathon, so the source is somewhat
 messy in places. Many corners were cut in order for the procedure level 4 to be
